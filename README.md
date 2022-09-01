@@ -15,12 +15,12 @@ Ini merupakan repository yang berisi rangkuman materi yang diajarkan di ekstraku
 
 ### Formula of SCB Coding
 ```javascript
-let belajar = new Belajar();
+let ilmu = new Ilmu();
 
-if (belajar.isEmpty()){
-  belajar.refill();
+if (ilmu.isEmpty()){
+  ilmu.refill();
 } else {
-  belajar.sharingAndPractice();
+  ilmu.sharingAndPractice();
 };
 ```
 

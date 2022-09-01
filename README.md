@@ -17,7 +17,7 @@ Ini merupakan repository yang berisi rangkuman materi yang diajarkan di ekstraku
 ```javascript
 let belajar = new Belajar();
 
-if(belajar.isEmpty()){
+if (belajar.isEmpty()){
   belajar.refill();
 } else {
   belajar.sharingAndPractice();

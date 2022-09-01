@@ -23,3 +23,10 @@ if (belajar.isEmpty()){
   belajar.sharingAndPractice();
 };
 ```
+
+### References
+* [https://www.w3schools.com/html/](https://www.w3schools.com/html/default.asp)
+* [https://www.pexels.com/](https://www.pexels.com/)
+* [https://icon-icons.com/](https://icon-icons.com/)
+* [https://glot.io/](https://glot.io/)
+* [https://developer.mozilla.org/en-US/docs/Learn/HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)

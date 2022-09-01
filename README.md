@@ -13,7 +13,7 @@ Ini merupakan repository yang berisi rangkuman materi yang diajarkan di ekstraku
 
 
 
-### Formula of SCB_Coding
+### Formula of SCB Coding
 ```javascript
 let belajar = new Belajar();
 

@@ -6,8 +6,8 @@
 * [Tag link - Add Favicon](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#tag-link---add-favicon)
 * [Tag Heading](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#tag-heading)
 * [Tag Paragraph and Tag Pre](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#tag-paragraph-and-tag-pre)
-* [Tag br]
-* [Tag hr]
+* [Tag br](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#tag-br)
+* [Tag hr](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#tag-hr)
 * [Tag a]
 * [Tag img]
 * [Tag video]
@@ -97,3 +97,19 @@ Tag Pre:
 ```
 
 ![pre](https://user-images.githubusercontent.com/70443393/188075660-99c02f0b-5aa9-4693-9734-8722ef3ecca2.jpg)
+
+## Tag br
+`tag br` berfungsi untuk memberikan baris baru/enter ke baris berikutnya
+
+```html5
+<br />
+```
+
+## Tag hr
+`tag hr` berfungsi untuk memberikan garis/line sepanjang satu baris full di halaman website
+
+```html5
+<hr />
+```
+
+

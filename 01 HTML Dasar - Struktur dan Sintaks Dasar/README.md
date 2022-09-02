@@ -2,7 +2,7 @@
 
 ## Materi ini terdiri dari:
 * [Struktur dasar HTML](https://github.com/Juwono136/SCB_Coding#struktur-dasar-html)
-* [Tag title]
+* [Tag title](https://github.com/Juwono136/SCB_Coding#tag-title)
 * [Tag link - Add Favicon]
 * [Tag Heading]
 * [Tag Paragraph and Tag Pre]
@@ -31,3 +31,15 @@ Berikut adalah struktur dasar HTML:
 </body>
 </html>
 ```
+
+Struktur HTML terdiri dari:
+* `<head></head>` yang berfungsi untuk memberikan metadata dan judul halaman website.
+* `<body></body>` yang berfungsi untuk menuliskan isi/content ke halaman website, seperti memberikan teks, gambar, video atau yang lainnya.
+
+## tag title
+```html5
+<title>Ini adalah judul halaman website</title>
+```
+
+`tag title` atau `<title></title>` di letakkan di dalam tag head, dan berfungsi untuk memberikan judul halaman website.
+

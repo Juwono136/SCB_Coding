@@ -1,8 +1,8 @@
 # 01 HTML Dasar - Struktur dan Sintaks Dasar
 
 ## Materi ini terdiri dari:
-* [Struktur dasar HTML](https://github.com/Juwono136/SCB_Coding#struktur-dasar-html)
-* [Tag title](https://github.com/Juwono136/SCB_Coding#tag-title)
+* [Struktur dasar HTML](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#struktur-dasar-html)
+* [Tag title](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#tag-title)
 * [Tag link - Add Favicon]
 * [Tag Heading]
 * [Tag Paragraph and Tag Pre]

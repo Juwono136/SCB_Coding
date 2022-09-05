@@ -8,10 +8,10 @@
 * [Tag Paragraph and Tag Pre](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#tag-paragraph-and-tag-pre)
 * [Tag br](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#tag-br)
 * [Tag hr](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#tag-hr)
-* [Tag a]
-* [Tag img]
-* [Tag video]
-* [Tag iframe]
+* [Tag a](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#tag-a)
+* [Tag img](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#tag-img)
+* [Tag video](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#tag-video)
+* [Tag iframe](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#tag-iframe)
 
 ## Struktur dasar HTML
 
@@ -112,4 +112,52 @@ Tag Pre:
 <hr />
 ```
 
+## Tag a
+`tag a` berfungsi untuk membuat sebuah link menuju suatu halaman/website tertentu
+```html5
+<a href="https://www.w3schools.com/html" target="_blank">Silahkan klik link berikut ini.</a>
+```
 
+![image](https://user-images.githubusercontent.com/70443393/188352101-2e731653-397f-4ac5-9dcc-7ed55d67bee9.png)
+
+## Tag img
+`tag img` berfungsi untuk memberikan/menyisipkan gambar ke dalam halaman web.
+Caranya kita buat folder `image`, lalu di dalamnya kita masukkan file gambar (misal img1.jpg), dan selanjutnya kita masukkan lokasi path-nya ke dalam atribut src yang ada di tag img
+```html5
+<img src="image/img1.jpg" alt="gambar_1" width="400px" height="250px" />
+```
+
+![image](https://user-images.githubusercontent.com/70443393/188352532-3c9138a6-e71c-4cab-9fb3-603e8f84c94c.png)
+
+## Tag video
+`tag video` berfungsi untuk memmasukkan/menyisipkan file video ke dalam halaman web.
+```html5
+<video src="video/video1.mp4" width="600" height="400" autoplay loop></video>
+```
+
+* autoplay berfungsi agar video berjalan/play secara otomatis
+* loop berfungsi agar video berjalan/play secara berulang tanpa jeda
+* Tag video lebih disarankan/sering digunakan dibandingkan tag iframe, karena proses pengambilan video berasal dari lokal
+
+https://user-images.githubusercontent.com/70443393/188353237-1844f096-27b8-4161-bc90-c6f1ce280add.mp4
+
+## Tag iframe
+`tag iframe` berfungsi untuk mengambil sebuah spesifiki frame, bisa dalam bentuk data atau link website halaman tertentu untuk ditampilkan di halaman web kita.
+
+Contoh tag iframe yang mengambil dari youtube link:
+```html5
+<iframe
+      width="600"
+      height="400"
+      src="https://www.youtube.com/embed/gdheyyNnJyk"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+></iframe>
+```
+
+![image](https://user-images.githubusercontent.com/70443393/188354364-8c5f9340-3a41-4868-baf4-86cb21e96694.png)
+
+
+*full source code bisa kamu lihat selengkapnya di index.html pada folder ini.*

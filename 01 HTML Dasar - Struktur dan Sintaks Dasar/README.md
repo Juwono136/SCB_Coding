@@ -36,12 +36,15 @@ Struktur HTML terdiri dari:
 * `<head></head>` yang berfungsi untuk memberikan metadata dan judul halaman website.
 * `<body></body>` yang berfungsi untuk menuliskan isi/content ke halaman website, seperti memberikan teks, gambar, video atau yang lainnya.
 
+___
+
 ## Tag title
 `tag title` atau `<title></title>` di letakkan di dalam `tag head`, dan berfungsi untuk memberikan judul halaman website.
 
 ```html5
 <title>Ini adalah judul halaman website</title>
 ```
+___
 
 ## Tag link - Add Favicon
 `tag link - favicon` di letakkan di dalam tag head (biasanya diatas tag title), dan berfungsi untuk memberikan icon website (favicon) dengan format file .ico
@@ -50,6 +53,7 @@ Masukkan link favicon ke dalam atribut `href`
 ```html5
 <link rel="shortcut icon" href="image/html5.ico" type="image/x-icon" />
 ```
+___
 
 ## Tag Heading
 `tag h1` sampai `h6` merupakan tag heading untuk memberikan tulisan heading/cetak tebal dan biasanya digunakan sebagai judul sebuah paragraf.
@@ -64,6 +68,8 @@ Masukkan link favicon ke dalam atribut `href`
 ```
 
 ![heading](https://user-images.githubusercontent.com/70443393/188074622-1c922f3e-257f-44c6-9eb2-18c8e6d6a3d6.jpg)
+
+___
 
 ## Tag Paragraph and Tag Pre
 * `tag p` berfungsi untuk memberikan teks paragraph, baik itu paragraph yang singkat atau panjang.
@@ -98,12 +104,15 @@ Tag Pre:
 
 ![pre](https://user-images.githubusercontent.com/70443393/188075660-99c02f0b-5aa9-4693-9734-8722ef3ecca2.jpg)
 
+___
+
 ## Tag br
 `tag br` berfungsi untuk memberikan baris baru/enter ke baris berikutnya
 
 ```html5
 <br />
 ```
+___
 
 ## Tag hr
 `tag hr` berfungsi untuk memberikan garis/line sepanjang satu baris full di halaman website
@@ -111,6 +120,7 @@ Tag Pre:
 ```html5
 <hr />
 ```
+___
 
 ## Tag a
 `tag a` berfungsi untuk membuat sebuah link menuju suatu halaman/website tertentu
@@ -120,6 +130,8 @@ Tag Pre:
 
 ![image](https://user-images.githubusercontent.com/70443393/188352101-2e731653-397f-4ac5-9dcc-7ed55d67bee9.png)
 
+___
+
 ## Tag img
 `tag img` berfungsi untuk memberikan/menyisipkan gambar ke dalam halaman web.
 Caranya kita buat folder `image`, lalu di dalamnya kita masukkan file gambar (misal img1.jpg), dan selanjutnya kita masukkan lokasi path-nya ke dalam atribut src yang ada di tag img
@@ -128,6 +140,8 @@ Caranya kita buat folder `image`, lalu di dalamnya kita masukkan file gambar (mi
 ```
 
 ![image](https://user-images.githubusercontent.com/70443393/188352532-3c9138a6-e71c-4cab-9fb3-603e8f84c94c.png)
+
+___
 
 ## Tag video
 `tag video` berfungsi untuk memmasukkan/menyisipkan file video ke dalam halaman web.
@@ -140,6 +154,8 @@ Caranya kita buat folder `image`, lalu di dalamnya kita masukkan file gambar (mi
 * Tag video lebih disarankan/sering digunakan dibandingkan tag iframe, karena proses pengambilan video berasal dari lokal
 
 https://user-images.githubusercontent.com/70443393/188353237-1844f096-27b8-4161-bc90-c6f1ce280add.mp4
+
+___
 
 ## Tag iframe
 `tag iframe` berfungsi untuk mengambil sebuah spesifiki frame, bisa dalam bentuk data atau link website halaman tertentu untuk ditampilkan di halaman web kita.

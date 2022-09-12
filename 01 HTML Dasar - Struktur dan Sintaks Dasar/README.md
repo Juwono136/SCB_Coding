@@ -18,6 +18,8 @@
 
 Sekompleks apapun teknologi yang digunakan dalam suatu website, pasti di dalamnya mengandung sebuah HTML. Maka dari pada itu, penting sekali kita belajar HTML sebagai awalan ketika belajar sebuah teknologi website.
 
+Kita bisa membuat sebuah file html dengan cara memberikan ekstension .html di belakang nama file, misalnya `hello.html`
+
 <div align="center">
     <img src="https://user-images.githubusercontent.com/70443393/189566212-66b99088-4643-4b95-b320-d665eaf5a5d2.png" width="280" height="300" />
 </div>

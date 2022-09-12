@@ -40,6 +40,7 @@ Berikut adalah struktur dasar HTML:
 ```
 
 Struktur HTML terdiri dari:
+* `<html></html>` yang berfungsi sebagai tag awalan dan penanda bahwa tag yang kita buat berformat html yang didalamnya terdapat tag head dan body
 * `<head></head>` yang berfungsi untuk memberikan metadata dan judul halaman website.
 * `<body></body>` yang berfungsi untuk menuliskan isi/content ke halaman website, seperti memberikan teks, gambar, video atau yang lainnya.
 

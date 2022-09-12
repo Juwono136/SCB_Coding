@@ -52,7 +52,7 @@ ___
 ```html5
 <title>Ini adalah judul halaman website</title>
 ```
-![title](https://user-images.githubusercontent.com/70443393/189567490-acffe7f8-414a-4e9a-9924-f2bcf225f5a2.jpg)
+![title](https://user-images.githubusercontent.com/70443393/189567682-fb41379d-a3a8-40fe-b77c-cadeb20836a1.jpg)
 
 ___
 

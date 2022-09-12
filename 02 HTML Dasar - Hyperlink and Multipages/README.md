@@ -37,6 +37,9 @@ Dari kode diatas kita bisa lihat bahwa tag a akan diarahkan ke file bernama `pag
 
 Kita bisa memanfaatkan tag a ini untuk membuat halaman yang multipages dalam sebuah website.
 
+___
+
+
 ## Cara membuat multipages dengan hyperlink
 1. kita buat terlebih dahulu file, misalnya page1.html yang berisi halaman sederhana seperti berikut:
 ```html5

@@ -25,6 +25,8 @@ if (ilmu.isEmpty()){
 };
 ```
 
+**Download Silabus:** [Download](https://drive.google.com/file/d/1vU1xMBY2iEVN1FsZQ2knATHiXbzaQLPP/view?usp=sharing)
+
 ### References
 * [https://www.w3schools.com/html/](https://www.w3schools.com/html/default.asp)
 * [https://www.pexels.com/](https://www.pexels.com/)

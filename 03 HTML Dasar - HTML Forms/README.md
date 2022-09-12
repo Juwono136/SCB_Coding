@@ -2,12 +2,12 @@
 
 ## Materi ini terdiri dari:
 * [Tag form](https://github.com/Juwono136/SCB_Coding/tree/master/03%20HTML%20Dasar%20-%20HTML%20Forms#tag-form)
-* [Form elements - input](https://github.com/Juwono136/SCB_Coding/tree/master/03%20HTML%20Dasar%20-%20HTML%20Forms#form-elements---input)
-* [Form elements - label](https://github.com/Juwono136/SCB_Coding/tree/master/03%20HTML%20Dasar%20-%20HTML%20Forms#form-elements---label)
-* [Tipe input - radio](https://github.com/Juwono136/SCB_Coding/tree/master/03%20HTML%20Dasar%20-%20HTML%20Forms#tipe-input---radio)
-* [Tipe input - checkbox](https://github.com/Juwono136/SCB_Coding/tree/master/03%20HTML%20Dasar%20-%20HTML%20Forms#tipe-input---checkbox)
+* [Form elements: input](https://github.com/Juwono136/SCB_Coding/tree/master/03%20HTML%20Dasar%20-%20HTML%20Forms#form-elements-input)
+* [Form elements: label](https://github.com/Juwono136/SCB_Coding/tree/master/03%20HTML%20Dasar%20-%20HTML%20Forms#form-elements-label)
+* [Tipe input: radio](https://github.com/Juwono136/SCB_Coding/tree/master/03%20HTML%20Dasar%20-%20HTML%20Forms#tipe-input-radio)
+* [Tipe input: checkbox](https://github.com/Juwono136/SCB_Coding/tree/master/03%20HTML%20Dasar%20-%20HTML%20Forms#tipe-input-checkbox)
 * [Tag textarea](https://github.com/Juwono136/SCB_Coding/tree/master/03%20HTML%20Dasar%20-%20HTML%20Forms#tag-textarea)
-* [Tipe input - submit](https://github.com/Juwono136/SCB_Coding/tree/master/03%20HTML%20Dasar%20-%20HTML%20Forms#tipe-input---submit)
+* [Tipe input: submit](https://github.com/Juwono136/SCB_Coding/tree/master/03%20HTML%20Dasar%20-%20HTML%20Forms#tipe-input-submit)
 
 ## Tag form
 `tag form` adalah sebuah tag HTML yang digunakan untuk mengambil input dari user. input dari user biasanya selanjutnya akan di teruskan ke server.

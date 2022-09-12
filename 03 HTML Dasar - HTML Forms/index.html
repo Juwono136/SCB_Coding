@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Belajar HTML Forms</title>
+
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .mainInput {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Membuat Formulir Sederhana</h2>
+
+    <form action="page3.html" class="mainInput">
+      <label for="name">Nama Lengkap:</label>
+      <input type="text" id="name" name="name" placeholder="Nama Lengkap" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Email anda" />
+
+      <label for="tgl">Tanggal lahir:</label>
+      <input type="date" id="tgl" name="tanggal_lahir" />
+
+      <p>Jenis Kelamin:</p>
+      <div>
+        <input
+          type="radio"
+          id="laki_laki"
+          name="jenisKelamin"
+          value="Laki - laki"
+        />
+        <label for="laki_laki">Laki - laki</label><br />
+
+        <input
+          type="radio"
+          id="perempuan"
+          name="jenisKelamin"
+          value="Perempuan"
+        />
+        <label for="perempuan">Perempuan</label>
+      </div>
+
+      <p>Makanan kesukaan:</p>
+      <div>
+        <input type="checkbox" id="makanan1" name="makanan1" value="makanan1" />
+        <label for="makanan1">Kue Lapis</label><br />
+
+        <input type="checkbox" id="makanan2" name="makanan2" value="makanan2" />
+        <label for="makanan2">Roti goreng</label><br />
+
+        <input type="checkbox" id="makanan3" name="makanan3" value="makanan3" />
+        <label for="makanan3">Nasi goreng</label><br />
+
+        <input type="checkbox" id="makanan4" name="makanan4" value="makanan4" />
+        <label for="makanan4">Ayam geprek</label><br />
+
+        <input type="checkbox" id="makanan5" name="makanan5" value="makanan5" />
+        <label for="makanan5">Batagor</label><br />
+
+        <label for="other">Lainnya:</label>
+        <input type="text" name="other" id="other" />
+      </div>
+
+      <p>Kritik dan saran:</p>
+      <textarea
+        name="kritikSaran"
+        id="kritikSaran"
+        cols="30"
+        rows="10"
+      ></textarea>
+
+      <h4>SIGN UP</h4>
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Password"
+      />
+
+      <label for="password">Ulangi Password:</label>
+      <input
+        type="password"
+        id="confirmPassword"
+        name="confirmPassword"
+        placeholder="Ulangi Password"
+      />
+
+      <br />
+
+      <input type="submit" value="Submit" />
+
+      <br />
+    </form>
+  </body>
+</html>

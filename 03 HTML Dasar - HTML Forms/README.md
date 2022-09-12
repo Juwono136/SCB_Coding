@@ -42,12 +42,33 @@ Ada berbagai jenis tipe input kalian bisa lihat di https://www.w3schools.com/htm
 ```
 
 Di dalam tag input terdapat beberapa atribut seperti:
-* type = menerangkan jenis tipe inputannya, dalam contoh diatas menggunakan tipe "text" untuk memasukkan inputan teks
-* id = bersifat unik dan spesifik, nama id biasanya sama dengan "for" di tag label agar mereka menjadi komponen yang sama dan bukan terpisah
-* name = memberikan nama yang spesifik untuk inputannya, atribu name nanti kedepannya bisa kita manfaatkan untuk di panggil di javascript agar inputan bisa dimanipulasi
-* placeholder = memberikan teks transparan dan memberikan keterangan tambahan ke dalam inputannya
-* value = memberikan nilai inputan default secara otomatis tanpa perlu user isi sebelumnya
+* `type` = menerangkan jenis tipe inputannya, dalam contoh diatas menggunakan tipe "text" untuk memasukkan inputan teks
+* `id` = bersifat unik dan spesifik, nama id biasanya sama dengan "for" di tag label agar mereka menjadi komponen yang sama dan bukan terpisah
+* `name` = memberikan nama yang spesifik untuk inputannya, atribu name nanti kedepannya bisa kita manfaatkan untuk di panggil di javascript agar inputan bisa dimanipulasi
+* `placeholder` = memberikan teks transparan dan memberikan keterangan tambahan ke dalam inputannya
+* `value` = memberikan nilai inputan default secara otomatis tanpa perlu user isi sebelumnya
 
+### Tipe inputan email
+```html5
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Email anda" />
+```
 
+Inputan tipe `email` artinya jenis inputan harus bertipe email, dimana user harus memasukkan format email (emailkamu@email.com), jika user tidak memasukkan inputan dengan format email maka html secara otomatis akan menolak jenis inputannya ketika data sebelum di submit.
+
+### Tipe inputan tanggal lahir
+```html5
+<label for="tgl">Tanggal lahir:</label>
+<input type="date" id="tgl" name="tanggal_lahir" />
+```
+
+Inputan tipe `date` memungkinkan user untuk menginput data dalam bentuk format tanggal/bulan/tahun (dd/mm/yyyy).
+
+![name](https://user-images.githubusercontent.com/70443393/189604227-ac434e3d-1df0-49ad-98e5-cefbe51d5d4b.jpg)
+
+____
+
+## Form elements: label
+tag `<label></label>` berfungsi untuk memberikan label pada inputan, tag ini biasanya berpasangan dengan tag input karena bisa menjelaskan/memberikan keterangan (label) pada inputan yang dimasukkan user
 
 

@@ -14,6 +14,15 @@
 * [Tag iframe](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar#tag-iframe)
 
 ## Struktur dasar HTML
+`HTML` atau `HyperText Markup Language` adalah sebuah bahasa standar yang digunakan di sebuah website atau aplikasi web. HTML adalah kerangka dasar yang menyusun suatu website. 
+
+Sekompleks apapun teknologi yang digunakan dalam suatu website, pasti di dalamnya mengandung sebuah HTML. Maka dari pada itu, penting sekali kita belajar HTML sebagai awalan ketika belajar sebuah teknologi website.
+
+Kita bisa membuat sebuah file html dengan cara memberikan ekstension .html di belakang nama file, misalnya `hello.html`
+
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/70443393/189566212-66b99088-4643-4b95-b320-d665eaf5a5d2.png" width="280" height="300" />
+</div>
 
 Berikut adalah struktur dasar HTML:
 ```html5
@@ -33,6 +42,7 @@ Berikut adalah struktur dasar HTML:
 ```
 
 Struktur HTML terdiri dari:
+* `<html></html>` yang berfungsi sebagai tag awalan dan penanda bahwa tag yang kita buat berformat html yang didalamnya terdapat tag head dan body
 * `<head></head>` yang berfungsi untuk memberikan metadata dan judul halaman website.
 * `<body></body>` yang berfungsi untuk menuliskan isi/content ke halaman website, seperti memberikan teks, gambar, video atau yang lainnya.
 
@@ -44,6 +54,8 @@ ___
 ```html5
 <title>Ini adalah judul halaman website</title>
 ```
+![title](https://user-images.githubusercontent.com/70443393/189567682-fb41379d-a3a8-40fe-b77c-cadeb20836a1.jpg)
+
 ___
 
 ## Tag link - Add Favicon

@@ -6,7 +6,7 @@
 - [Cara membuat multipages dengan hyperlink](https://github.com/Juwono136/SCB_Coding/tree/master/02%20HTML%20Dasar%20-%20Hyperlink%20and%20Multipages#cara-membuat-multipages-dengan-hyperlink)
 
 ## Fungsi id
-`id` adalah sebuah atribut dalam html yang digunakan untuk membuat suatu tag html sebuah content menjadi unik dan spesifik.
+`id` adalah sebuah atribut dalam html yang digunakan untuk membuat suatu tag html, tag id memungkinkan sebuah content menjadi unik dan spesifik.
 Karena sifatnya yang unik dan spesifik, kita tidak diperbolehkan menulis nama id yang sama lebih dari satu kali.
 
 Aturan penulisan id di HTML:

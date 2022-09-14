@@ -71,4 +71,7 @@ ____
 ## Form elements: label
 tag `<label></label>` berfungsi untuk memberikan label pada inputan, tag ini biasanya berpasangan dengan tag input karena bisa menjelaskan/memberikan keterangan (label) pada inputan yang dimasukkan user
 
+```html5
+<label for="name">Nama Lengkap:</label>
+```
 

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  border: 5px solid green;
+  padding: 20px;
+}
+
+h3 {
+  border: 5px solid greenyellow;
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  margin-top: 90px;
+}
+
+/*  
+    Catatan:
+    padding-bottom: untuk memberikan padding dibagian bawah saja
+    padding-top: untuk memberikan padding dibagian atas saja
+    padding-left: untuk memberikan padding dibagian kiri saja
+    padding-right: untuk memberikan padding dibagian kanan saja
+
+    margin-bottom: untuk memberikan margin dibagian bawah saja
+    margin-top: untuk memberikan margin dibagian atas saja
+    margin-left: untuk memberikan margin dibagian kiri saja
+    margin-right: untuk memberikan margin dibagian kanan saja
+*/

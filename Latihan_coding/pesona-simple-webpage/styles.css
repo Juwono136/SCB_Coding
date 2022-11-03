@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Sansita+Swashed&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* height: 2000px; */
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* navbar section */
+.nav-container {
+  background-color: #433fff;
+  opacity: 0.8;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 45px;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu a {
+  padding-right: 20px;
+  color: #fff;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: rgb(180, 148, 253);
+}
+
+.nav-logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Hero section */
+.hero-container {
+  display: flex;
+}
+
+.hero-container img {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.hero-title {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+  color: #d9d9d9;
+  font-family: "Sansita Swashed", sans-serif;
+}
+
+/* Content section */
+.content-container {
+  margin: 40px;
+  /*   background-color: red; */
+}
+
+.content-title {
+  color: rgb(45, 45, 45);
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content-desc {
+  background-color: #433fff;
+  padding: 25px;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.content-p {
+  padding-bottom: 20px;
+  text-indent: 50px;
+  text-align: justify;
+}

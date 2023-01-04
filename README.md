@@ -30,8 +30,12 @@ if (ilmu.isEmpty()){
 
 ### References
 * [https://www.w3schools.com/html/](https://www.w3schools.com/html/default.asp)
+* [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/css/default.asp)
+* [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
 * [https://www.pexels.com/](https://www.pexels.com/)
 * [https://icon-icons.com/](https://icon-icons.com/)
 * [https://glot.io/](https://glot.io/)
 * [https://developer.mozilla.org/en-US/docs/Learn/HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+* [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [https://www.freecodecamp.org/](https://www.freecodecamp.org/)
+* [https://boxicons.com/](https://boxicons.com/)

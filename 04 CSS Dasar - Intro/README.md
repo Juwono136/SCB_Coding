@@ -1,11 +1,11 @@
 # 04 CSS Dasar - Intro
 
 ## Materi ini terdiri dari:
-* Pengenalan singkat tentang CSS
-* CSS Syntax
-* CSS Selector
-* CSS Property yang sering digunakan
-* Cara menghubungkan CSS dengan element html
+* [Pengenalan singkat tentang CSS](https://github.com/Juwono136/SCB_Coding/tree/master/04%20CSS%20Dasar%20-%20Intro#pengenalan-singkat-tentang-css)
+* [CSS Syntax](https://github.com/Juwono136/SCB_Coding/tree/master/04%20CSS%20Dasar%20-%20Intro#css-syntax)
+* [CSS Selector](https://github.com/Juwono136/SCB_Coding/tree/master/04%20CSS%20Dasar%20-%20Intro#css-selector)
+* [CSS Property yang sering digunakan](https://github.com/Juwono136/SCB_Coding/tree/master/04%20CSS%20Dasar%20-%20Intro#css-property-yang-sering-digunakan)
+* [Cara menghubungkan CSS dengan element html](https://github.com/Juwono136/SCB_Coding/tree/master/04%20CSS%20Dasar%20-%20Intro#cara-menghubungkan-css-dengan-element-html)
 
 
 ## Pengenalan singkat tentang CSS

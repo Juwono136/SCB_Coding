@@ -73,5 +73,106 @@ tag `<label></label>` berfungsi untuk memberikan label pada inputan, tag ini bia
 
 ```html5
 <label for="name">Nama Lengkap:</label>
+<input type="text" id="name" name="name" placeholder="Nama Lengkap" />
+```
+
+atribut `for` di tag label dan atribut `id` di tag input namanya harus sama agar mereka (tag label dan input) menjadi satu komponen atau satu grup.
+
+____
+
+## Tipe input: radio
+*) Selain tipe input radio button, ada beberapa tipe inputan yang ada di html yang bisa lihat disini: https://www.w3schools.com/html/html_form_input_types.asp
+
+Tipe input radio memungkinkan tampilan berupa beberapa pilihan yang salah satunya bisa di klik/dipilih oleh user.
+
+Berikut adalah salah satu contoh dari penggunaan radio button:
+```html5
+<p>Jenis Kelamin:</p>
+      <div>
+        <input
+          type="radio"
+          id="laki_laki"
+          name="jenisKelamin"
+          value="Laki - laki"
+        />
+        <label for="laki_laki">Laki - laki</label><br />
+
+        <input
+          type="radio"
+          id="perempuan"
+          name="jenisKelamin"
+          value="Perempuan"
+        />
+        <label for="perempuan">Perempuan</label>
+      </div>
+```
+
+Kode diatas akan menghasilkan tampilan radio button seperti berikut:
+
+![radio-button](https://user-images.githubusercontent.com/70443393/210469593-a1200e5c-227d-4704-b6d8-8c01ae51c717.jpg)
+
+<b>Catatan:</b> Agar input radio button hanya bisa dipilih salah satu saja, kita bisa memberikan atribut `name` dengan nama yang sama untuk semua tag input-nya. Seperti contoh diatas, kedua tag input memiliki `name` yang sama yaitu `jenisKelamin`
+
+____
+
+## Tipe input: Checkbox
+Checkbox button memungkinkan kita untuk membuat tampilan sebuah pilihan yang dimana user bisa memilih/men-checklist satu atau beberapa pilihan
+
+Berikut adalah salah satu contoh dari penggunaan checkbox button:
+```html5
+p>Makanan kesukaan:</p>
+      <div>
+        <input type="checkbox" id="makanan1" name="makanan1" value="makanan1" />
+        <label for="makanan1">Kue Lapis</label><br />
+
+        <input type="checkbox" id="makanan2" name="makanan2" value="makanan2" />
+        <label for="makanan2">Roti goreng</label><br />
+
+        <input type="checkbox" id="makanan3" name="makanan3" value="makanan3" />
+        <label for="makanan3">Nasi goreng</label><br />
+
+        <input type="checkbox" id="makanan4" name="makanan4" value="makanan4" />
+        <label for="makanan4">Ayam geprek</label><br />
+
+        <input type="checkbox" id="makanan5" name="makanan5" value="makanan5" />
+        <label for="makanan5">Batagor</label><br />
+      </div>
+```
+
+Kode diatas akan menghasilkan tampilan checkbox button seperti berikut:
+
+![checkbox](https://user-images.githubusercontent.com/70443393/210470768-48c2eea5-83fd-4dca-8641-cfb297c23d29.jpg)
+
+____
+
+## Tag textarea
+`textarea` memungkinkan kita untuk membuat sebuah textbox yang terdiri dari beberapa baris yang bisa diisi/diinput oleh user
+
+Berikut adalah salah satu contoh dari penggunaan textarea:
+```html5
+<p>Kritik dan saran:</p>
+      <textarea
+        name="kritikSaran"
+        id="kritikSaran"
+        cols="30"
+        rows="10"
+      ></textarea>
+```
+
+Kode diatas akan menghasilkan tampilan seperti berikut:
+
+![textarea](https://user-images.githubusercontent.com/70443393/210471120-3bd7980c-64c4-4d8b-ada8-fc4784184a49.jpg)
+
+* atribut `cols` berfungsi untuk mengatur jumlah kolom (panjang) di textarea
+* atribut `rows` berfungsi untuk mengatur jumlah baris (tinggi) di textarea
+
+____
+
+## Tipe input: submit
+`submit` button berfungsi untuk mengirimkan hasil inputan yang user isi di dalam form ke suatu halaman tertentu maupun ke dalam database.
+
+Berikut contoh submit button:
+```html5
+<input type="submit" value="Submit" />
 ```
 

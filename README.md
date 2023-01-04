@@ -14,6 +14,7 @@ Ini merupakan repository yang berisi rangkuman materi yang diajarkan di ekstraku
 * [03 HTML Dasar - HTML Forms](https://github.com/Juwono136/SCB_Coding/tree/master/03%20HTML%20Dasar%20-%20HTML%20Forms)
 * [04 CSS Dasar - Intro](https://github.com/Juwono136/SCB_Coding/tree/master/04%20CSS%20Dasar%20-%20Intro)
 * [05 CSS Dasar - Box Model](https://github.com/Juwono136/SCB_Coding/tree/master/05%20CSS%20Dasar%20-%20Box%20model)
+* [06 CSS Display](https://github.com/Juwono136/SCB_Coding/tree/master/06%20CSS%20Display)
 
 
 

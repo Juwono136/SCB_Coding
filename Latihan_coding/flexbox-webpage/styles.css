@@ -342,3 +342,130 @@ a:hover {
   color: #fff;
   font-size: 10px;
 }
+
+/* Responsive mobile device */
+
+/* For small device (smartphone) */
+@media screen and (max-width: 576px) {
+  .nav-container {
+    flex-direction: column;
+  }
+
+  .nav-container .logo {
+    font-size: 28px;
+    padding-bottom: 15px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+
+  .image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .title-container {
+    text-align: center;
+  }
+
+  .header-title {
+    font-size: 26px;
+  }
+
+  .header-subtitle {
+    font-size: 14px;
+  }
+
+  .card-content-container {
+    flex-direction: column;
+  }
+
+  .main-title {
+    font-size: 26px;
+  }
+
+  .explore-container-title {
+    padding: 15px;
+  }
+
+  .explore-title {
+    font-size: 20px;
+  }
+
+  .wrap-explore {
+    margin: 10px;
+  }
+
+  .contact-title {
+    font-size: 26px;
+  }
+
+  .container-contact {
+    flex-direction: column;
+  }
+
+  .form-image {
+    width: 250px;
+  }
+
+  .form-contact-container {
+    max-width: 100%;
+  }
+}
+
+/* For medium device (tablet) */
+@media screen and (max-width: 768px) {
+  .image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .header-title {
+    font-size: 24px;
+  }
+
+  .header-subtitle {
+    font-size: 14px;
+  }
+
+  .card-content {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-p {
+    font-size: 12px;
+  }
+
+  .wrap-explore {
+    width: 200px;
+  }
+
+  .image-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .title-wrap-explore {
+    font-size: 14px;
+  }
+
+  .btn-explore {
+    padding: 5px;
+  }
+
+  .a-explore {
+    font-size: 12px;
+  }
+
+  .form-image {
+    width: 220px;
+    height: 220px;
+  }
+}

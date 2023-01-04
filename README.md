@@ -12,6 +12,8 @@ Ini merupakan repository yang berisi rangkuman materi yang diajarkan di ekstraku
 * [01 HTML Dasar - Struktur dan Sintaks Dasar](https://github.com/Juwono136/SCB_Coding/tree/master/01%20HTML%20Dasar%20-%20Struktur%20dan%20Sintaks%20Dasar)
 * [02 HTML Dasar - Hyperlink and Multipages](https://github.com/Juwono136/SCB_Coding/tree/master/02%20HTML%20Dasar%20-%20Hyperlink%20and%20Multipages)
 * [03 HTML Dasar - HTML Forms](https://github.com/Juwono136/SCB_Coding/tree/master/03%20HTML%20Dasar%20-%20HTML%20Forms)
+* [04 CSS Dasar - Intro](https://github.com/Juwono136/SCB_Coding/tree/master/04%20CSS%20Dasar%20-%20Intro)
+* [05 CSS Dasar - Box Model](https://github.com/Juwono136/SCB_Coding/tree/master/05%20CSS%20Dasar%20-%20Box%20model)
 
 
 
@@ -30,8 +32,12 @@ if (ilmu.isEmpty()){
 
 ### References
 * [https://www.w3schools.com/html/](https://www.w3schools.com/html/default.asp)
+* [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/css/default.asp)
+* [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
 * [https://www.pexels.com/](https://www.pexels.com/)
 * [https://icon-icons.com/](https://icon-icons.com/)
 * [https://glot.io/](https://glot.io/)
 * [https://developer.mozilla.org/en-US/docs/Learn/HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+* [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [https://www.freecodecamp.org/](https://www.freecodecamp.org/)
+* [https://boxicons.com/](https://boxicons.com/)

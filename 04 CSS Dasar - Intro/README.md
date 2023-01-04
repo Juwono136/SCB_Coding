@@ -152,7 +152,7 @@ Kemudian, kita hubungkan ke dalam file htmlnya, dengan cara menggunakan tag `<li
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="stylescss">
+  <link rel="stylesheet" href="styles.css">
 </head>
   <body>
 

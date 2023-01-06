@@ -16,7 +16,7 @@ Setiap Box terdiri secara umum terdiri dari:
 4. **Border** : garis tepi yang membatasi padding dan margin.
 
 ## Padding
-Property `padding` memiliki beberapa jenis yaitu:
+`padding` property memiliki beberapa jenis yaitu:
 * `padding-top` : untuk mengatur padding di bagian atas
 * `padding-right` : untuk mengatur padding di bagian kanan
 * `padding-bottom` : untuk mengatur padding di bagian bawah
@@ -29,9 +29,44 @@ Satuan unit value yang dapat diisi di property padding adalah:
 
 *untuk unit ukuran bisa selengkapnya kalian lihat disini: https://www.w3schools.com/cssref/css_units.php*
 
-Property `padding` diatas bisa disingkat (shorthand) menjadi satu baris dengan format: 
+`padding` property diatas bisa disingkat (shorthand) menjadi satu baris dengan format: 
 
 `padding: <padding-top> <padding-right> <padding-bottom> <padding-left>;`
 
 
-Contoh shorthand padding: `padding: 100px 20px 50px 40px;`
+Contoh shorthand padding: `padding: 100px 20px 50px 40px;` Dimana:
+* 100px adalah `padding-top`
+* 20px adalah `padding-right`
+* 50px adalah `padding-bottom`
+* 40px adalah `padding-left`
+
+Info lebih lengkap mengenai padding: https://www.w3schools.com/css/css_padding.asp
+
+____
+
+## Margin
+`margin` property memiliki beberapa jenis yaitu:
+* `margin-top` : untuk mengatur margin di bagian atas
+* `margin-right` : untuk mengatur margin di bagian kanan
+* `margin-bottom` : untuk mengatur margin di bagian bawah
+* `margin-left` : untuk mengatur margin di bagian kiri
+
+`margin` property dapat di shorthand menjadi satu baris yaitu:
+`margin: <margin-top> <margin-right> <margin-bottom> <margin-left>;`
+
+
+Contoh shorthand margin: `margin: 20px 10px 15px 30px;`
+* 20px adalah `margin-top`
+* 10px adalah `margin-right`
+* 15px adalah `margin-bottom`
+* 30px adalah `margin-left`
+
+
+Info lebih lengkap mengenai margin: https://www.w3schools.com/css/css_margin.asp
+
+____
+
+## Border
+
+Info mengenai border bisa dilihat disini: https://www.w3schools.com/css/css_border.asp
+

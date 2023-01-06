@@ -1,11 +1,11 @@
 # CSS Dasar - Box Model
 
 ## Materi ini terdiri dari:
-* [Padding]
-* [Margin]
-* [Border]
+* [Padding](https://github.com/Juwono136/SCB_Coding/tree/master/05%20CSS%20Dasar%20-%20Box%20model#padding)
+* [Margin](https://github.com/Juwono136/SCB_Coding/tree/master/05%20CSS%20Dasar%20-%20Box%20model#margin)
+* [Border](https://github.com/Juwono136/SCB_Coding/tree/master/05%20CSS%20Dasar%20-%20Box%20model#border)
 
-![box-model-pict](https://user-images.githubusercontent.com/70443393/210925275-b0c5f817-b79f-486c-ab2a-d39de01ee73f.jpg)
+![box-model-pict](https://user-images.githubusercontent.com/70443393/210940746-a395afb9-6ff0-4947-9fd7-d1266a5e4934.jpg)
 
 ***CSS Box Model*** adalah suatu konsep dimana setiap element yang terdapat di dalam sebuah website dikelompokkan dan diproses ke dalam kotak (Box).
 
@@ -35,4 +35,3 @@ Property `padding` diatas bisa disingkat (shorthand) menjadi satu baris dengan f
 
 
 Contoh shorthand padding: `padding: 100px 20px 50px 40px;`
-

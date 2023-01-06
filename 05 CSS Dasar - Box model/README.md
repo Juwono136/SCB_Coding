@@ -26,6 +26,7 @@ Satuan unit value yang dapat diisi di property padding adalah:
 * length - yang terdiri dari px, pt, cm, etc.
 * % (percent)
 * inherit - ukuran spesifik yang mengacu pada parent element
+*untuk unit ukuran bisa selengkapnya kalian lihat disini: https://www.w3schools.com/cssref/css_units.php*
 
 Property `padding` diatas bisa disingkat (shorthand) menjadi satu baris dengan format: `padding: <padding-top> <padding-right> <padding-bottom> <padding-left>;`
 

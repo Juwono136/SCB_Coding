@@ -76,16 +76,16 @@ Untuk selector id html, gunakan simbol hastag (#) sebelum nama id-nya:
 }
 ```
 
-2. Combinator Selectors
+2. Combinator Selectors </br>
 Silahkan baca penjelasannya di link berikut: https://www.w3schools.com/css/css_combinators.asp
 
-3. Pseudo-class Selectors
+3. Pseudo-class Selectors </br>
 Silahkan baca penjelasannya di link berikut: https://www.w3schools.com/css/css_pseudo_classes.asp
 
-4. Pseudo-element Selectors
+4. Pseudo-element Selectors </br>
 Silahkan baca penjelasannya di link berikut: https://www.w3schools.com/css/css_pseudo_elements.asp
 
-5. Attribute Selectors
+5. Attribute Selectors </br>
 Silahkan baca penjelasannya di link berikut: https://www.w3schools.com/css/css_attribute_selectors.asp
 
 ____

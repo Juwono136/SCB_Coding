@@ -108,6 +108,7 @@ ____
 Berikut adalah beberapa cara agar kita bisa menggunakan/menghubungkan css di element html website kita
 
 1. Dengan tag style di html (internal css)
+
 Dengan menggunakan tag `<style></style>` yang kita letakkan di dalam tag `head`, maka dengan mudah kita bisa memberikan css ke dalam element html kita
 Contoh:
 ```html5
@@ -135,6 +136,7 @@ Contoh:
 ```
 
 2. Dengan membuat file baru dengan format .css (external css) (RECOMMENDED)
+
 Pertama kita buat file baru, misalnya dengan nama "styles.css" yang isinya css:
 ```html5
 body {
@@ -164,6 +166,7 @@ Kemudian, kita hubungkan ke dalam file htmlnya, dengan cara menggunakan tag `<li
 ```
 
 3. Menulis secara langsung di dalam tag html (inline css)
+
 Dengan cara menambahkan atribut `style` di dalam tag html, lalu kita bisa memberikan property css secara langsung di element html:
 ```html5
 <!DOCTYPE html>

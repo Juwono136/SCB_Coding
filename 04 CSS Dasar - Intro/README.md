@@ -135,7 +135,7 @@ Contoh:
 </html>
 ```
 
-2. Dengan membuat file baru dengan format .css (external css) (RECOMMENDED)
+2. Dengan membuat file baru dengan format .css (external css) **(RECOMMENDED)**
 
 Pertama kita buat file baru, misalnya dengan nama "styles.css" yang isinya css:
 ```html5

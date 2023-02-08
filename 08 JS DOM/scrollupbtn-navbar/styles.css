@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 2000px;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #fb2576;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  padding: 30px 0;
+  color: #fff;
+}
+
+nav .logo {
+  font-family: "Lobster", cursive;
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  font-size: 14px;
+  padding-right: 20px;
+  transition: 0.4s all;
+}
+
+nav ul li a:hover {
+  color: #ff8dc7;
+}
+
+/* humburger menu */
+.menu_toggle,
+.menu_close {
+  display: none;
+  position: absolute;
+  right: 20px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.nav_menu {
+  display: flex;
+}
+
+/* responsive breakpoint */
+/* tablet size */
+@media screen and (max-width: 768px) {
+  nav ul {
+    width: 50%;
+  }
+}
+
+/* mobile size */
+@media screen and (max-width: 576px) {
+  .nav_menu {
+    /* display: none; */
+    position: absolute;
+    right: 0;
+    top: -600px;
+    background-color: #fb2576;
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+    z-index: 2;
+    opacity: 0.8;
+    transform: translateY(100%);
+    transition: 0.4s all;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .nav_menu ul {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  .menu_close {
+    display: flex;
+    z-index: 2;
+  }
+
+  .menu_toggle {
+    display: flex;
+  }
+}
+
+/* scroll up button */
+.scrollup_icon {
+  font-size: 20px;
+  color: #fff;
+}
+
+.scroll_up {
+  position: fixed;
+  background-color: #d23369;
+  right: 16px;
+  bottom: -20%;
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 3;
+  opacity: 0.86;
+  transition: 0.4s all;
+}
+
+.scroll_up:hover {
+  background-color: #9c254d;
+  opacity: 1;
+}
+
+.show-scroll {
+  bottom: 30px;
+}

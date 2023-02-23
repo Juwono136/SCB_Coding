@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 2000px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  color: #fff;
+}
+
+/* navbar */
+.navbar {
+  background-color: #13005a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  padding: 0 50px;
+  position: fixed;
+}
+
+.navcontainer1 {
+  display: flex;
+}
+
+.navmenu {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.navitem {
+  padding-right: 20px;
+  transition: 0.2s;
+}
+
+.navitem:hover {
+  color: #988ffe;
+}
+
+.navlogo {
+  cursor: pointer;
+}
+
+.navcontainer2 {
+  display: flex;
+  align-items: center;
+}
+
+.navlogin {
+  padding-right: 20px;
+}
+
+.navbtn {
+  background-color: #1c82ad;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.navbtn:hover {
+  background-color: #016088;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 50px 0;
+  background: linear-gradient(180deg, #1c82ad 13.44%, #7343fc 100%);
+}
+
+.cardimg {
+  width: 350px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.headercontainer1 {
+  padding: 50px 20px;
+}
+
+.headersub {
+  font-size: 12px;
+  color: #fff;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.headertitle {
+  font-size: 60px;
+  margin-right: 100px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 65px;
+  padding-bottom: 20px;
+}
+
+.headerbtn {
+  display: flex;
+  justify-content: center;
+  background-color: #1b007e;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 150px;
+}
+
+.headericon {
+  font-size: 40px;
+  cursor: pointer;
+  color: #fff;
+  padding-right: 10px;
+  transition: 0.2s;
+}
+
+.headericon:hover {
+  color: #260090;
+}
+
+.headercontainer2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.headercard {
+  background-color: #fff;
+  margin: 30px 0;
+}
+
+.carddesc {
+  padding: 10px 20px;
+}
+
+.cardtitle {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.cardsub {
+  font-size: 16px;
+  color: #b2b2b2;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.cardbtn {
+  display: flex;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.enrollbtn {
+  padding: 10px 20px;
+  background-color: #ff8863;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.learnbtn {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid black;
+}
+
+.learn {
+  color: #000;
+}
